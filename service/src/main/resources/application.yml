@@ -1,0 +1,12 @@
+amazon:
+  accessKey: 
+  secretKey: 
+  region: ap-south-1
+  sagemaker:
+    training:
+      s3Uri: s3://ml-opshcl123/dataset/
+      trainingJobName: trainingJob2
+      roleArn: arn:aws:iam::971422676158:role/service-role/AmazonSageMaker-ExecutionRole-20250618T162862
+      s3OutputPath: s3://ml-opshcl123/model/
+      channelName: training
+      trainingImage: 971422676158.dkr.ecr.ap-south-1.amazonaws.com/training:latest
